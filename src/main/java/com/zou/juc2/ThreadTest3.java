@@ -12,10 +12,6 @@ public class ThreadTest3 {
             };
         }.start();
 
-
-
-
-
         new Thread(new Runnable() {
             @Override
             public void run() {
