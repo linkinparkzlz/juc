@@ -1,6 +1,6 @@
 package com.zou.juc2;
 
-public class Demo1 extends Thread {
+public class ThreadTest1 extends Thread {
 
 //
 //    private void init(ThreadGroup g, Runnable target, String name,
@@ -22,8 +22,8 @@ public class Demo1 extends Thread {
     public static void main(String[] args) {
 
 
-        Demo1 d1 = new Demo1();
-        Demo1 d2 = new Demo1();
+        ThreadTest1 d1 = new ThreadTest1();
+        ThreadTest1 d2 = new ThreadTest1();
 
         //d1.setDaemon(true);//设置为守护线程
 
