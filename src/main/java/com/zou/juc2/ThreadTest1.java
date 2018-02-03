@@ -30,7 +30,6 @@ public class ThreadTest1 extends Thread {
         d1.start();
         d2.start();
 
-
         //d1.interrupt(); //中断线程的方法
     }
 }
