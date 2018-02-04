@@ -1,5 +1,12 @@
 package com.zou.juc2;
 
+/**
+ *
+ * 多线程环境下，多个线程共享一个资源，
+ * 对资源进行非原子性操作，
+ *
+ *
+ */
 public class Sequence {
 
     private int value;
